@@ -4,20 +4,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Promosi Unifi Hebat</title>
+  <title>Promosi Unifi Gawai & Kaamatan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Poppins', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f7f7f7;
+      background: linear-gradient(to bottom, #fff9ec, #f0e6d2);
       color: #333;
+      overflow-x: hidden;
     }
     header {
-      background: #ff6600;
+      background: linear-gradient(to right, #a97d37, #7c5c20);
       color: white;
       padding: 2rem 1rem;
       text-align: center;
+      animation: fadeInDown 1s ease-out;
     }
     header h1 {
       margin: 0;
@@ -29,81 +34,123 @@
     }
     .container {
       padding: 2rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
+      animation: fadeInUp 1.5s ease-out;
     }
     .package {
       background: white;
+      border-left: 8px solid #a97d37;
       border-radius: 10px;
       padding: 1.5rem;
-      margin-bottom: 1rem;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 1.2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    .package:hover {
+      transform: scale(1.02);
     }
     .package h2 {
       margin-top: 0;
-      color: #ff6600;
+      color: #7c5c20;
     }
     .why, .contact {
       margin-top: 2rem;
     }
+    .why h2, .contact h2 {
+      color: #a97d37;
+    }
     .contact a {
-      color: #ff6600;
+      color: #a97d37;
       font-weight: bold;
       text-decoration: none;
     }
     .footer {
       text-align: center;
-      padding: 1rem;
+      padding: 1.5rem;
       font-size: 0.9rem;
-      color: #888;
+      background: #f5f0e6;
+      color: #555;
+      margin-top: 2rem;
+    }
+    .celebration {
+      background: #fffaec;
+      padding: 1rem;
+      border-left: 5px solid #a97d37;
+      margin-bottom: 2rem;
+      border-radius: 6px;
+      text-align: center;
+      font-style: italic;
+      color: #5a4321;
+      animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Internet Laju, Hidup Lebih Padu!</h1>
-    <p>Dapatkan Unifi dengan harga terbaik & servis tip top!</p>
+    <h1>Promosi Unifi Gawai & Kaamatan!</h1>
+    <p>Raikan sambutan dengan Internet paling laju & stabil!</p>
   </header>
 
   <div class="container">
+    <div class="celebration">
+      Selamat Hari Gawai & Tadau Kaamatan!  
+      <br>“Gayu Guru Gerai Nyamai” & “Kopivosian Tadau Kaamatan”
+    </div>
+
     <section class="packages">
       <div class="package">
         <h2>Unifi 100Mbps - RM89/bulan</h2>
-        <p>Streaming & kerja dari rumah. Sesuai untuk kegunaan harian.</p>
+        <p>Internet cukup untuk kerja, belajar & streaming ringan.</p>
       </div>
       <div class="package">
         <h2>Unifi 300Mbps - RM139/bulan</h2>
-        <p>Laju padu untuk rumah aktif & multi-device.</p>
+        <p>Sesuai untuk keluarga kecil, video call & streaming HD.</p>
       </div>
       <div class="package">
         <h2>Unifi 500Mbps - RM159/bulan</h2>
-        <p>Sesuai untuk gamer & streamer. Pengalaman lancar tanpa gangguan.</p>
+        <p>Power untuk gamer, content creator & rumah aktif!</p>
       </div>
       <div class="package">
         <h2>Unifi 800Mbps - RM249/bulan</h2>
-        <p>Super laju untuk keluarga besar & bisnes kecil.</p>
+        <p>Internet super laju untuk rumah besar & bisnes kecil.</p>
       </div>
     </section>
 
     <section class="why">
       <h2>Kenapa Pilih Kami?</h2>
       <ul>
-        <li>Pendaftaran PERCUMA</li>
-        <li>Pemasangan PANTAS & MUDAH</li>
-        <li>Support Terus dari Team Mesra</li>
-        <li>Tiada Bayaran Tersembunyi!</li>
+        <li>Pendaftaran & pemasangan PERCUMA</li>
+        <li>Servis mesra & pantas</li>
+        <li>Tiada kos tersembunyi</li>
+        <li>Boleh daftar dari rumah – semua urusan online!</li>
       </ul>
     </section>
 
     <section class="contact">
-      <h2>Hubungi Sekarang!</h2>
+      <h2>Hubungi Kami Sekarang!</h2>
       <p>Whatsapp / Call: <strong>014-2586089</strong></p>
-      <p><a href="https://wa.me/60142586089" target="_blank">Klik di sini untuk WhatsApp terus!</a></p>
+      <p><a href="https://wa.me/60142586089" target="_blank">Klik di sini untuk WhatsApp terus</a></p>
     </section>
   </div>
 
   <div class="footer">
-    &copy; 2025 Promosi Unifi | Reka bentuk oleh JJ
+    &copy; 2025 Promosi Unifi | Tema Gawai & Kaamatan oleh JJ
   </div>
 </body>
 </html>
